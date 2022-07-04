@@ -1,0 +1,20 @@
+[
+    {"nombre": "Estrella", "tipo": "Anillo", "id": 1, "precio": 5250, "cantidad": 1},
+    {"nombre": "Flower", "tipo": "Anillo", "id": 2, "precio": 3450, "cantidad": 1},
+    {"nombre": "Trenzado", "tipo": "Anillo", "id": 3, "precio": 5770, "cantidad": 1},
+    {"nombre": "Pluma", "tipo": "Anillo", "id": 4, "precio": 8800, "cantidad": 1},
+    {"nombre": "Maxi", "tipo": "Anillo", "id": 5, "precio": 7600, "cantidad": 1},
+    {"nombre": "Rigel", "tipo": "Anillo", "id": 6, "precio": 7200, "cantidad": 1},
+    {"nombre": "Regi", "tipo": "Aros", "id": 7, "precio": 780, "cantidad": 1},
+    {"nombre": "Molly", "tipo": "Aros", "id": 8, "precio": 1260, "cantidad": 1},
+    {"nombre": "Ramina", "tipo": "Aros", "id": 9, "precio": 1100, "cantidad": 1},
+    {"nombre": "Litu", "tipo": "Aros", "id": 10, "precio": 650, "cantidad": 1},
+    {"nombre": "Triangulo", "tipo": "Aros", "id": 11, "precio": 4200, "cantidad": 1},
+    {"nombre": "Avion", "tipo": "Aros", "id": 12, "precio": 4200, "cantidad": 1},
+    {"nombre": "Corita", "tipo": "Collar", "id": 13, "precio": 1450, "cantidad": 1},
+    {"nombre": "Vistil", "tipo": "Collar", "id": 14, "precio": 1100, "cantidad": 1},
+    {"nombre": "Jules", "tipo": "Collar", "id": 15, "precio": 1100, "cantidad": 1},
+    {"nombre": "Fara", "tipo": "Collar", "id": 16, "precio": 1100, "cantidad": 1},
+    {"nombre": "Gucci", "tipo": "Collar", "id": 17, "precio": 1750, "cantidad": 1},
+    {"nombre": "Viamonte", "tipo": "Collar", "id": 18, "precio": 1550, "cantidad": 1}
+]

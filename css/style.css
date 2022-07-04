@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.titulo{
+    justify-content: space-between;
+}
+
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+}
+
+.inicio-carousel{
+    display: flex;
+    justify-content: center;
+}
+#inicio-carousel{
+    margin-top: 15px;
+    width: 400px;
+    height: auto;
+}
+#inicio-carousel img{
+    width: 400px;
+    height: auto;
+}
+
+#inicio{
+    font-weight: bold;
+}
+#inicio, h2{
+    margin: 20px;
+    text-align: center;
+    color: black;
+}
+
+.categorias{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
+h3{
+    color: white;
+}
+#contenedorProductos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tarjeta{
+    text-align: center;
+    margin: 30px;
+}
+#carrito{
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(233, 150, 122, 0.87);
+}
+
+.boton{
+    margin: 2px;
+}

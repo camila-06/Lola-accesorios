@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Collares | Lola Accesorios</title>
+</head>
+<body class="bg-light">
+    <header class="py-3 mb-4">
+        <div class="titulo container d-flex flex-wrap border-bottom">
+            <div class="d-flex">
+                <form id="search" class="d-flex align-items-center">
+                    <input id="inputSearch" class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-secondary me-2" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <ul id="box-search" class="dropdown-menu dropdown">
+                        <li><a href=""></a></li>
+                    </ul>
+                </form>
+            </div>
+            <div>
+                <a href="../index.html" class="navbar-brand d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">Lola Accesorios</a>
+            </div>
+            <div class="d-flex align-items-center">
+                <button id="carro" type="button" class="btn btn-primary position-relative" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <i id="cart" class="fas fa-shopping-cart"></i> Carrito de compras
+                    <span id="contador" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        0
+                    </span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1 id="inicio">Categoría: Collares</h1>
+        </div>
+        <section class="container" id = "contenedorProductos">
+
+        </section>
+<!-- Sidebar carrito -->
+        <div class="offcanvas offcanvas-end contenedorCarrito" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                <h5 id="offcanvasRightLabel">Carrito de compras</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Producto</th>
+                            <th scope="col">Precio</th>
+                            <th scope="col">Cantidad</th>
+                            <th scope="col">Eliminar</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody">
+                    </tbody>
+                </table>
+                <p class="total">Total: $ <span id="montoTotal">0</span></p>
+                <button id="comprar" type="button" class="btn btn-secondary">Finalizar compra</button>
+                <button id="vaciar" type="button" class="btn btn-secondary">Vaciar carrito</button>
+                </div>
+            </div>
+<!-- Fin Sidebar carrito -->
+    </main>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <span class="text-muted">© 2022 Lola Accesorios</span>
+        </div>
+        <div>
+            <a href="contacto.html" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                Contactanos!
+                </a>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+            <li class="ms-3"><a class="text-muted" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+            <li class="ms-3"><a class="text-muted" href="https://www.facebook.com"><i class="fab fa-facebook"></i></a></li>
+        </ul>
+    </footer>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- <script src="../js/main.js"></script> -->
+    <!-- <script src="../js/anillos.js"></script> -->
+    <!-- <script src="../js/aros.js"></script> -->
+    <script src="../js/collares.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
