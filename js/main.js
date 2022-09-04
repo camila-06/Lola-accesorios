@@ -30,7 +30,7 @@ obtenerProductos().then(productos => {
     contenedorProductos.appendChild(card);
     
     let cardImg = document.createElement("div");
-    cardImg.innerHTML = `<img src = "../img/${producto.nombre}.jpeg" class = "card-img-top" alt = "${producto.nombre}"</img>`;
+    cardImg.innerHTML = `<img src = "img/${producto.nombre}.jpeg" class = "card-img-top" alt = "${producto.nombre}"</img>`;
     card.appendChild(cardImg);
     let cardBody = document.createElement("div");
     cardBody.innerHTML = `<h5 class="card-title">${producto.nombre}</h5>
