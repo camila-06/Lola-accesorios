@@ -18,7 +18,7 @@ let link = boxSearch.querySelector('a')
 
 // OBTENER PRODUCTOS
 async function obtenerProductos() {
-    const response = await fetch('../stock.json')
+    const response = await fetch('stock.json')
     return await response.json()
 }
 
